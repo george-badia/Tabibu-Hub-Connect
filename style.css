@@ -104,6 +104,7 @@ nav {
    transform: rotate(90deg); 
 }
 
+
 /* ---------Mobile responsiveness------------ */
 @media (max-width: 768px) {
    .menu-toggle {
@@ -164,6 +165,24 @@ nav {
    font-weight: 500;
    padding: 10px 0;
 }
+
+/* ------------------------Main Container Styles---------- */
+.main-container {
+   width: 90vw;
+   margin: 0 auto;
+   padding: 40px 0;
+   padding-top: 80px;
+}
+
+.main-container > h2 {
+   text-align: center;
+   padding: 10px 0;
+   font-size: 32px;
+   color: #0066cc; /* Dark blue color */
+   padding-top: 80px;
+}
+
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
    .menu-toggle {
