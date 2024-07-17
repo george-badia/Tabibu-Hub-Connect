@@ -160,11 +160,7 @@ nav {
 .search-container button:hover {
    background-color: #005bb5;
 }
-.main-container > p {
-   text-align: center;
-   font-weight: 500;
-   padding: 10px 0;
-}
+
 
 /* ------------------------Main Container Styles---------- */
 .main-container {
@@ -181,6 +177,7 @@ nav {
    color: #0066cc; /* Dark blue color */
    padding-top: 80px;
 }
+
 .main-container > p {
    text-align: center;
    font-weight: 500;
