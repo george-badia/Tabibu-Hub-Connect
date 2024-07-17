@@ -1,0 +1,132 @@
+{
+   "images": {
+     "heartPlusLogo": "images/heart-plus-logo.png",
+     "bmiCalculator": "images/bmi-calculator.jpg",
+     "heartRateMonitor": "images/heart-rate-monitor.jpg",
+     "symptomChecker": "images/symptom-checker.jpg",
+     "calorieCalculator": "images/calorie-calculator.jpg",
+     "doctor1": "images/doctor1.jpg",
+     "doctor2": "images/doctor2.jpg"
+   },
+   "posts": [
+     {
+       "id": "post1",
+       "category": "diseases",
+       "image": "images/diseases-1.jpg",
+       "date": "February 15, 2024",
+       "comments": 20,
+       "title": "Common Diseases and Their Symptoms",
+       "description": "A comprehensive guide to recognizing symptoms of common diseases."
+     },
+     {
+       "id": "post2",
+       "category": "lifestyle",
+       "image": "images/lifestyle-1.jpg",
+       "date": "March 10, 2024",
+       "comments": 12,
+       "title": "Healthy Lifestyle Tips",
+       "description": "Simple tips to help you maintain a healthy lifestyle."
+     },
+     {
+       "id": "post3",
+       "category": "wellness",
+       "image": "https://ch-api.healthhub.sg/api/public/content/6b7f24e742624251bded1d8bf1dd76b9?v=528a33a9",
+       "date": "April 05, 2024",
+       "comments": 45,
+       "title": "Wellness Practices for a Balanced Life",
+       "description": "Explore different wellness practices to achieve a balanced life."
+     },
+     {
+       "id": "post4",
+       "category": "medications",
+       "image": "https://www.healthhub.sg/assets/images/medical.png",
+       "date": "May 22, 2024",
+       "comments": 8,
+       "title": "How to Store Medications Safely",
+       "description": "Tips and guidelines on how to store medications safely at home."
+     },
+     {
+       "id": "post5",
+       "category": "diseases",
+       "image": "images/diseases-2.jpg",
+       "date": "June 18, 2024",
+       "comments": 14,
+       "title": "Preventing the Spread of Infectious Diseases",
+       "description": "Measures and practices to prevent the spread of infectious diseases."
+     },
+     {
+       "id": "post6",
+       "category": "lifestyle",
+       "image": "https://ch-api.healthhub.sg/api/public/content/ee2d4c3c52454c7993528a78d9641558?v=9e282ed5",
+       "date": "July 02, 2024",
+       "comments": 22,
+       "title": "Balancing Work and Personal Life",
+       "description": "Strategies to help you balance your work and personal life effectively."
+     },
+     {
+       "id": "post7",
+       "category": "wellness",
+       "image": "https://ch-api.healthhub.sg/api/public/content/679b1335177d442f91a9f2083cc946b3?v=71e46346",
+       "date": "August 12, 2024",
+       "comments": 30,
+       "title": "Mindfulness and Meditation Techniques",
+       "description": "Learn various mindfulness and meditation techniques to enhance your well-being."
+     },
+     {
+      "id": "post8",
+      "category": "medications",
+      "image": "https://ch-api.healthhub.sg/api/public/content/679b1335177d442f91a9f2083cc946b3?v=71e46346",
+      "date": "August 12, 2024",
+      "comments": 30,
+      "title": "A-Z of Medical Medication",
+      "description": "Get Step-by-Step Guide on dosages, How to use and its side effects."
+    }
+   ],
+   "doctors": [
+     {
+       "id": "doctor1",
+       "name": "Dr. John Smith",
+       "specialty": "Cardiologist",
+       "img": "images/doctor1.jpg",
+       "bio": "Dr. John Smith is a leading cardiologist with over 20 years of experience..."
+     },
+     {
+      "id": "doctor2",
+      "name": "Dr. Jane Doe",
+      "specialty": "General Practitioner",
+      "img": "images/doctor2.jpg",
+      "bio": "Dr. Jane Doe is a compassionate general practitioner with a broad range of experience in family medicine. She is dedicated to providing comprehensive care for patients of all ages..."
+  }
+   ],
+   "healthTools": [
+     {
+       "id": "tool1",
+       "name": "BMI Calculator",
+       "description": "Calculate your Body Mass Index to understand your health better...",
+       "link": "tools/bmi-calculator.html",
+       "image": "images/bmi-calculator.jpg"
+     },
+     {
+       "id": "tool2",
+       "name": "Heart Rate Monitor",
+       "description": "Monitor your heart rate to ensure it stays within a healthy range...",
+       "link": "tools/heart-rate-monitor.html",
+       "image": "images/heart-rate-monitor.jpg"
+     },
+     {
+       "id": "tool3",
+       "name": "Symptom Checker",
+       "description": "Identify potential health issues based on your symptoms...",
+       "link": "tools/symptom-checker.html",
+       "image": "images/symptom-checker.jpg"
+     },
+     {
+       "id": "tool4",
+       "name": "Calorie Calculator",
+       "description": "Track your daily calorie intake to maintain a balanced diet...",
+       "link": "tools/calorie-calculator.html",
+       "image": "images/calorie-calculator.jpg"
+     }
+   ]
+ }
+ 

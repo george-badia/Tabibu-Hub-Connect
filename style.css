@@ -1,0 +1,200 @@
+/*------------the general Styles ------------------------------*/
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.5;
+   background-color: azure; 
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+/* ------------Header Styles-------------------- */
+header {
+   background-color: #0066cc;
+   color: #fff;
+   padding: 15px 0;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+   /* ---Smooth transition for hiding/showing navbar------- */
+   transition: top 0.3s; 
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   font-size: 24px;
+   margin-right: 10px;
+}
+.logo i {
+   font-size: 35px; 
+   /*---Add spacing between icon and text----- */
+   margin-right: 5px;
+}
+.logo span {
+   margin-left: 10px;
+}
+
+#navLinks {
+   list-style-type: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+   align-items: center;
+}
+
+#navLinks li {
+   margin: 0 10px;
+   justify-content: center; 
+   align-items: center;
+}
+
+#navLinks li a {
+   color: #fff;
+   text-decoration: none;
+   padding: 5px 10px;
+   transition: background-color 0.3s;
+}
+
+#navLinks li a:hover {
+   background-color: #005bb5;
+   border-radius: 5px;
+}
+
+
+.menu-toggle {
+   background-color: #0066cc;
+   color: #fff;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 16px;
+   display: none;
+}
+.menu-toggle i {
+   color: #fff;
+}
+
+.menu-toggle.active i {
+   color: #fff; 
+}
+.menu-toggle:hover {
+   background-color: #005bb5;
+}
+/*---------Hamburger menu animation-------------- */
+.menu-toggle.active .fa-bars {
+   transform: rotate(90deg); 
+}
+
+/* ---------Mobile responsiveness------------ */
+@media (max-width: 768px) {
+   .menu-toggle {
+      display: flex;
+   }
+
+   #navLinks {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #0066cc;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   #navLinks.active {
+      display: flex;
+   }
+
+   #navLinks li {
+      width: 100%;
+      margin: 10px 0;
+   }
+}
+
+
+/* -------------Search Container Styles-------- */
+.search-container {
+   display: flex;
+   align-items: center;
+   
+   margin-left: auto;  
+}
+
+.search-container input[type="text"] {
+   padding: 8px;
+   border: none;
+   border-radius: 5px;
+   margin-right: 5px;
+}
+
+.search-container button {
+   background-color: #0066cc;
+   color: #fff;
+   border: none;
+   padding: 8px 12px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.search-container button:hover {
+   background-color: #005bb5;
+}
+.main-container > p {
+   text-align: center;
+   font-weight: 500;
+   padding: 10px 0;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+   .menu-toggle {
+       display: block;
+   }
+
+   header ul {
+       display: none;
+       width: 100%;
+       position: absolute;
+       top: 60px;
+       left: 0;
+       background: #0066cc;
+       flex-direction: column;
+       text-align: center;
+   }
+
+   header ul.active {
+       display: flex;
+   }
+
+   header ul li {
+       width: 100%;
+       margin: 10px 0;
+   }
+
+   .category-title {
+       flex: 0 0 calc(33.3333% - 10px);
+   }
+
+   .posts-main-container {
+       grid-template-columns: repeat(1, 1fr);
+   }
+}
