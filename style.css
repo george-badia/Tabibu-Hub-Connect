@@ -99,7 +99,7 @@ nav {
 .menu-toggle:hover {
    background-color: #005bb5;
 }
-/*---------Hamburger menu animation-------------- */
+/*---------Hamburger menu animation Styles-------------- */
 .menu-toggle.active .fa-bars {
    transform: rotate(90deg); 
 }
@@ -223,6 +223,28 @@ nav {
 }
 .category-title span {
    color: #0066cc; /* Dark blue color */
+}
+/* -----------Posts Container Styles---------- */
+.posts-main-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 40px;
+}
+.posts-main-container > .post {
+   box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+.post-img {
+   position: relative;
+}
+.category-name {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   text-transform: uppercase;
+   font-size: 13px;
+   color: #fff;
+   padding: 4px 10px;
+   border-radius: 2px;
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
