@@ -1,5 +1,9 @@
 
-document.addEventListener('DOMContentLoaded',() =>{
+document.addEventListener('DOMContentLoaded',() =>{ 
+
+   const categoryTitles = document.querySelectorAll('.category-title');
+   const healthToolsContainer = document.getElementById('healthToolsContainer');
+   const doctorsContainer = document.getElementById('doctorsContainer');
 // ----------- menu toggle--------------//
 //add click event listener
 const menuToggle = document.querySelector('.menu-toggle');
@@ -51,5 +55,45 @@ homeLink.addEventListener('click',function (event){
       })  
    });
    
-});
+// Function to fetch and display posts
+function fetchPosts() {
+   fetch('http://localhost:3000/posts')
+     .then(response => response.json())
+     .then(data => {
+       displayPosts(data);
+     }) 
+     
+     .catch(error => console.error('Error fetching posts:', error));
+ }
+ 
+ // ---------Function to display posts on the DOM------//
+// Initial fetch of posts
+ fetchPosts();
+ function displayPosts(posts) {
+   const postsContainer = document.querySelector('.posts-main-container');
+   postsContainer.innerHTML = ''; // Clear existing content
+   posts.forEach(post => {
+     const postCard = document.createElement('div');
+     postCard.className = 'post';
+     postCard.innerHTML = `
+        <div class="post-img ${post.category}">
+                       <img src="${post.image}" alt="${post.title}">
+                       <div class="category-name">${post.category}</div>
+                   </div>
+                   <div class="post-content">
+                       <div class="post-content-top">
+                           <span><i class="fas fa-calendar"></i>${post.date}</span>
+                           <span><i class="fas fa-comment"></i>${post.comments} Comments</span>
+                       </div>
+                       <h2>${post.title}</h2>
+                       <p>${post.description}</p>
+                       <a href="#" class="read-btn">Read More</a>
+                   </div>
+               `;
+     postsContainer.appendChild(postCard);
+   });
+ }
+
+
+ });
 
