@@ -76,7 +76,23 @@
 <h2>online Doctors</h2>
 <!--------- populate doctors  -------->
   </section>
+  <section class="contact-doctor" id="contact">
+   <h2>contact a Doctor</h2>
+   <form id="contactForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name"
+      name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="namedoctorcontacting">Name of Doctor Contacting:</label>
+      <input type="text" id="namedoctorcontacting" name="namedoctorcontacting" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+   </form>
+  </section>
   <script src="script.js"></script>
+  <!-- <script src="test.js"></script> -->
 </body>
 
 </html>
