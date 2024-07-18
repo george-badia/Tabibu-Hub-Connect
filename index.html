@@ -8,6 +8,7 @@
    <title>Tabibu-hub Connect</title>
 </head>
 <body>
+  <!--========================= head section ====================-->
   <header>
    <nav>
          <div class="logo">
@@ -20,7 +21,7 @@
             <li><a href="#onlineDoctors">Online Doctors</a></li>
             <li><a href="#contact">Contact</a></li>
       </ul>
-
+<!----------------search-container --------------->
       <div class="search-container">
          <input type="text" placeholder="Search...">
          <button type="submit"><i class="fas fa-search"></i></button>
@@ -30,10 +31,12 @@
      </div>
    </nav>
   </header> 
+  <!----------------main-container --------------->
   <div class="main-container">
    <h2>Tabibu-Hub Connect</h2>
    <p>Tabibu-Hub Connect is your comprehensive health and wellness companion.  We're here to walk alongside you on your journey to better health. <br>Need advice on managing a chronic condition?  Curious about a symptom? <br>Or simply looking for ways to improve your overall well-being? You've come to the right place. <br>We offer reliable health information, practical tips, and trusted resources to help you make informed decisions about your body. Let's take this health adventure together!</p>
   </div>
+   <!----------------filter-container --------------->
   <div class="filter-container">
    <div class="category-head">
       <ul>
@@ -65,17 +68,22 @@
       </div>
    </div>
   </div>
+  <!--========================= health-tools-section ====================-->
   <section class="health-tools-section" id="healthTools">
    <h2>Health Tools</h2>
    <div class="health-tools-container" id="health-tools-container">
-    <!------- add healthTools --------->
+       <!------- add healthTools --------->
    </div>
-
   </section>
-  <section class="doctors-section" id="onlineDoctors" >
-<h2>online Doctors</h2>
-<!--------- populate doctors  -------->
+  <!--========================= doctors-section ====================-->
+  <section class="doctors-section" 
+  id="onlineDoctors">
+  <h2>Online Doctors</h2>
+    <div class="doctors-container">
+    <!--------- populate doctors  -------->
+    </div>
   </section>
+  <!--========================= contact-doctor ====================-->
   <section class="contact-doctor" id="contact">
    <h2>contact a Doctor</h2>
    <form id="contactForm">
@@ -91,6 +99,49 @@
       <button type="submit">Send</button>
    </form>
   </section>
+  <!--========================= testimonial-section ====================-->
+  <section class="testimonial-section">
+   <h2>Testimonials</h2>
+   <div class="testimonial-container">
+       <div class="testimonial-card">
+           <p>"Great service! Tabibu-Hub Connect helped me find the right doctor online."</p>
+           <span>- John Doe</span>
+       </div>
+       <div class="testimonial-card">
+           <p>"The health tools provided here are very useful and easy to use."</p>
+           <span>- Jane Smith</span>
+       </div>
+       <div class="testimonial-card">
+           <p>"I love the wellness resources. Highly recommend!"</p>
+           <span>- Michael Johnson</span>
+       </div>
+       <div class="testimonial-card">
+           <p>"Excellent platform for health advice and tools."</p>
+           <span>- Emily Brown</span>
+       </div>
+   </div>
+</section>
+<!--========================= footer-content ====================-->
+<footer>
+<div class="footer-content">
+    <div class="footer-info">
+      <p>Address</p>
+      <p>Tabibu-Hub Connect</p>
+      <p>P.O BOX 001</p>
+        <p>JIJI</p>
+    </div>
+    <div class="footer-adress">
+      <p>&copy;2024 Tabibu-Hub Connect &#8482;</p>
+      <p>Tel: 254 1234567</p>
+  </div>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google-play"></i></a>
+    </div>
+</div>
+</footer>
   <script src="script.js"></script>
   <!-- <script src="test.js"></script> -->
 </body>
