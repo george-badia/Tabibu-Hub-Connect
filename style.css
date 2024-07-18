@@ -289,6 +289,74 @@ nav {
    font-size: 15px;
    line-height: 1.8;
 }
+.post-content p {
+   opacity: 0.7;
+   font-size: 15px;
+   line-height: 1.8;
+}
+.read-btn {
+   display: block; /* Change display to block to center horizontally */
+   width: fit-content; /* Optional: Adjust width as needed */
+   margin: 0 auto; /* Center horizontally */
+   border: 1px solid #0066cc;
+   background: transparent;
+   color: #0066cc;
+   padding: 8px 15px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   text-decoration: none; /* Remove underline */
+   transition: background-color 0.3s, color 0.3s;
+   text-align: center; /* Align text inside button */
+}
+
+.read-btn:hover {
+   background: #cce6ff;
+   color: #005bb5;
+}
+/* ----------------------Contact Doctor Styles------ */
+.contact-doctor {
+   background-color: #e6f2ff; /* Lighter blue background */
+   padding: 40px 20px;
+   margin-top: 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+.contact-doctor h2 {
+   color: #0066cc; /* Dark blue color */
+   margin-bottom: 20px;
+}
+
+.contact-doctor form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contact-doctor label {
+   margin: 10px 0 5px 0;
+}
+.contact-doctor input,
+.contact-doctor textarea {
+   width: 100%;
+   max-width: 500px;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+.contact-doctor button {
+   background-color: #0066cc; 
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+.contact-doctor button:hover {
+   background-color: #005bb5;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
    .menu-toggle {
