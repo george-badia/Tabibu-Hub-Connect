@@ -12,7 +12,7 @@
      {
        "id": "post1",
        "category": "diseases",
-       "image": "images/diseases-1.jpg",
+       "image": "https://media.istockphoto.com/id/1455960060/photo/kraken-coronavirus-cells-microscope-slide.jpg?s=612x612&w=0&k=20&c=bsMwJT8SjxyDN9hKKD6pF0YrP-3B4XxuyD4HEMRAEqk=",
        "date": "February 15, 2024",
        "comments": 20,
        "title": "Common Diseases and Their Symptoms",
@@ -21,7 +21,7 @@
      {
        "id": "post2",
        "category": "lifestyle",
-       "image": "images/lifestyle-1.jpg",
+       "image": "https://ch-api.healthhub.sg/api/public/content/deeb81776bda448ba29e773b6e5a39c0?v=5322e8f9",
        "date": "March 10, 2024",
        "comments": 12,
        "title": "Healthy Lifestyle Tips",
@@ -39,7 +39,7 @@
      {
        "id": "post4",
        "category": "medications",
-       "image": "https://www.healthhub.sg/assets/images/medical.png",
+       "image": "https://ch-api.healthhub.sg/api/public/content/f71a70add0fb4cea9abaf24b593db03b?v=bbe307e4&t=w387",
        "date": "May 22, 2024",
        "comments": 8,
        "title": "How to Store Medications Safely",
@@ -48,7 +48,7 @@
      {
        "id": "post5",
        "category": "diseases",
-       "image": "images/diseases-2.jpg",
+       "image": "https://ch-api.healthhub.sg/api/public/content/075c208d4d114bd495788d7b6868688a?v=da4ce9ff&t=azheaderimage",
        "date": "June 18, 2024",
        "comments": 14,
        "title": "Preventing the Spread of Infectious Diseases",
@@ -75,7 +75,16 @@
      {
       "id": "post8",
       "category": "medications",
-      "image": "https://ch-api.healthhub.sg/api/public/content/679b1335177d442f91a9f2083cc946b3?v=71e46346",
+      "image": "https://ch-api.healthhub.sg/api/public/content/a501bf951b9d4a92829b4cd29ff9b943?v=3afc4bd9&t=w387",
+      "date": "August 12, 2024",
+      "comments": 30,
+      "title": "A-Z of Medical Medication",
+      "description": "Get Step-by-Step Guide on dosages, How to use and its side effects."
+    },
+    {
+      "id": "post9",
+      "category": "medications",
+      "image": "https://cdn.healthhub.sg/-/media/ihis/images/categories_logo.svg?rev=a7ce2c7eacb742b48e88f107fe74618b",
       "date": "August 12, 2024",
       "comments": 30,
       "title": "A-Z of Medical Medication",
@@ -87,14 +96,14 @@
        "id": "doctor1",
        "name": "Dr. John Smith",
        "specialty": "Cardiologist",
-       "img": "images/doctor1.jpg",
+       "img": "https://t4.ftcdn.net/jpg/05/49/68/55/240_F_549685570_kr4HGw1tElDWcXefLiHrEKpfkfao99oy.jpg",
        "bio": "Dr. John Smith is a leading cardiologist with over 20 years of experience..."
      },
      {
       "id": "doctor2",
       "name": "Dr. Jane Doe",
       "specialty": "General Practitioner",
-      "img": "images/doctor2.jpg",
+      "img": "https://t3.ftcdn.net/jpg/06/43/62/52/240_F_643625246_773zQTySyc1ddwlmaGCmd3HjiO5AmJVp.jpg",
       "bio": "Dr. Jane Doe is a compassionate general practitioner with a broad range of experience in family medicine. She is dedicated to providing comprehensive care for patients of all ages..."
   }
    ],
@@ -104,28 +113,28 @@
        "name": "BMI Calculator",
        "description": "Calculate your Body Mass Index to understand your health better...",
        "link": "tools/bmi-calculator.html",
-       "image": "images/bmi-calculator.jpg"
+       "image": "https://devsting.com/assets/js/javascript-bmi-calculator.png"
      },
      {
        "id": "tool2",
        "name": "Heart Rate Monitor",
        "description": "Monitor your heart rate to ensure it stays within a healthy range...",
        "link": "tools/heart-rate-monitor.html",
-       "image": "images/heart-rate-monitor.jpg"
+       "image": "https://forums.ni.com/t5/image/serverpage/image-id/257273i52FEE03B32CBA1AC?v=v2"
      },
      {
        "id": "tool3",
        "name": "Symptom Checker",
        "description": "Identify potential health issues based on your symptoms...",
        "link": "tools/symptom-checker.html",
-       "image": "images/symptom-checker.jpg"
+       "image": "https://play-lh.googleusercontent.com/cqO5UsxfVaO7Wi-Z_g4nPZlN4rkBZh8-41JlGG3ZL3DJxgvTMzkTVj-JBCpNzU_2Bac=w526-h296-rw"
      },
      {
        "id": "tool4",
        "name": "Calorie Calculator",
        "description": "Track your daily calorie intake to maintain a balanced diet...",
        "link": "tools/calorie-calculator.html",
-       "image": "images/calorie-calculator.jpg"
+       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAO0cOS68PpfOBsp0E-pqWbyncTduNvfp6A&s"
      }
    ]
  }
