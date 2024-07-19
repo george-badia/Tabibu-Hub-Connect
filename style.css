@@ -1,4 +1,4 @@
-/*------------------------============the general Styles=============------------------------------*/
+/*------------------------============the general Styles==========------------*/
 * {
    box-sizing: border-box;
    margin: 0;
@@ -16,7 +16,7 @@ img {
    max-width: 100%;
    height: auto;
 }
-/* ------------===============Header Styles===============================-------------------- */
+/* ------------===============Header Styles=================---------------- */
 header {
    background-color: #0066cc;
    color: #fff;
@@ -99,7 +99,7 @@ nav {
 .menu-toggle:hover {
    background-color: #005bb5;
 }
-/*---------==============================Hamburger menu animation Styles===================-------------- */
+/*-----==============Hamburger menu animation Styles================------ */
 .menu-toggle.active .fa-bars {
    transform: rotate(90deg); 
 }
@@ -322,7 +322,7 @@ nav {
 
 
 
-/*---------------------------------Health Tools Section Styles----------------------------- */
+/*-----------------------Health Tools Section Styles------------------------- */
 .health-tools-section {
    background-color: #e6f2ff; /* Lighter blue background */
    padding: 40px 20px;
@@ -332,7 +332,7 @@ nav {
 }
 
 .health-tools-section h2 {
-   color: #0066cc; /* Dark blue color */
+   color: #0066cc; 
    margin-bottom: 20px;
 }
 
@@ -387,7 +387,7 @@ nav {
 //* Doctors Section Styles */
 .doctors-section {
    justify-content: center;
-   column-gap: 50px;
+   column-gap: 60px;
    display: flex;
    background-color: #e6f2ff;
    padding: 40px 20px;
@@ -397,7 +397,7 @@ nav {
 }
 
 .doctors-section h2 {
-   color: #0066cc; /* Dark blue color */
+   color: #0066cc; 
    margin-bottom: 20px;
 }
 
@@ -445,7 +445,7 @@ nav {
    transform: translateY(-5px);
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-/* --------------------------------Contact Doctor Section------------------------------- */
+/* ----------------------Contact Doctor Section----------------------------- */
 .contact-doctor {
    padding: 60px 0;
 }
@@ -453,7 +453,7 @@ nav {
 .contact-doctor h2 {
    text-align: center;
    color: #0066cc;
-   margin-bottom: 20px;
+
 }
 
 #contactForm {
@@ -494,7 +494,7 @@ nav {
    background-color: #005bb5;
 }
 
-/* -----------------------------Testimonial Section Styles------------------------------ */
+/* ---------------------Testimonial Section Styles------------------------- */
 .testimonial-section {
    background-color: azure;
    padding: 40px 20px;
@@ -537,7 +537,7 @@ nav {
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
    transition: transform 0.3s, box-shadow 0.3s;
 }
-/* -------------------------------Footer Styles-------------------------------- */
+/* -------------------------------Footer Styles------------------------------ */
 footer {
    background-color: #f0f0f0;
    padding: 20px;
@@ -568,7 +568,7 @@ footer {
 
 
 .footer-info {
-   text-align: center; /* Center align the text */
+   text-align: center; 
 }
 
 .footer-info p {

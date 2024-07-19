@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
    
     // Initial fetch of all posts, health tools, and doctors
     fetchPosts('all');
-    // Function to fetch and display health tools
+    //--------------- fetch and display health tools----------------//
   function fetchHealthTools() {
     fetch('http://localhost:3000/healthTools') 
       .then(response => response.json())
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error('Error fetching health tools:', error));
   }
   
-  // Function to display health tools on the DOM
+  // ------------------- display health tools on the DOM--------------------//
   function displayHealthTools(healthTools) {
     const healthToolsContainer = document.getElementById('health-tools-container');
     healthToolsContainer.innerHTML = ''; // Clear existing content
@@ -96,9 +96,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   
-  // Function to fetch and display doctors
+  // ---------------------------- fetch and display doctors-------------------//
   function fetchDoctors() {
-    fetch('http://localhost:3000/doctors') // Correct endpoint for doctors
+    fetch('http://localhost:3000/doctors')
       .then(response => response.json())
       .then(data => {
         displayDoctors(data); // Call function to display doctors
@@ -106,16 +106,23 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error('Error fetching doctors:', error));
   }
   
-  // Function to display doctors on the DOM
+  // ------------------Function to display doctors on the DOM------------//
   function displayDoctors(doctors) {
     const doctorsContainer = document.querySelector('.doctors-section');
-    doctorsContainer.innerHTML = ''; // Clear existing content
+    doctorsContainer.innerHTML = '';
+    
+  // // Add the title above the doctor cards
+  // const titleElement = document.createElement('h2');
+  // titleElement.textContent = 'Our Online Doctors';
+  // doctorsContainer.appendChild(titleElement);
+ // Clear existing content
     doctors.forEach(doctor => {
       const doctorCard = document.createElement('div');
       doctorCard.className = 'doctor-card';
       doctorCard.innerHTML = `
         <img src="${doctor.img}" alt="${doctor.name}">
         <div class="doctor-info">
+        <h2>${doctor.title} </h2>
           <h3>${doctor.name}</h3>
           <p>${doctor.specialty}</p>
           <p>${doctor.bio}</p>
@@ -125,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   
-  // Initial fetch of health tools and doctors
+  // ----------------------Initial fetch of health tools and doctors------------//
   fetchHealthTools();
   fetchDoctors();
     // Add event listeners to category titles
@@ -152,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
      navLinks.classList.toggle('active');
   });
     
-    // Contact form handling
+    // --------------Contact form handling--------------//
     const contactForm = document.getElementById('contactForm');
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -164,28 +171,14 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
 
-/*this method only fetches posts and filter has not been intergrated */
+/*this method only fetches posts and filter has not been intergrated used for development purpose */
 
 // document.addEventListener('DOMContentLoaded',() =>{ 
   
 //   //=======================Making an Initial fetch of all posts========================//
 //   fetchPosts('all');
 
-//   // Event listeners for category filtering
-//   categoryButtons.forEach(button => {
-//       button.addEventListener('click', function () {
-//           // Remove 'active' class from all categories
-//           categoryButtons.forEach(btn => btn.classList.remove('active'));
 
-//           // Add 'active' class to the clicked category
-//           button.classList.add('active');
-
-//           // Fetch posts based on the clicked category
-//           const categoryId = button.id.toLowerCase();
-//           fetchPosts(categoryId);
-//       });
-//   });
-// });
 // //  fetch and display posts
 // function fetchPosts() {
 //    fetch('http://localhost:3000/posts')

@@ -94,6 +94,7 @@
    "doctors": [
      {
        "id": "doctor1",
+       "title":"online doctor",
        "name": "Dr. John Smith",
        "specialty": "Cardiologist",
        "img": "https://t4.ftcdn.net/jpg/05/49/68/55/240_F_549685570_kr4HGw1tElDWcXefLiHrEKpfkfao99oy.jpg",
@@ -101,6 +102,7 @@
      },
      {
       "id": "doctor2",
+      "title":"online doctor",
       "name": "Dr. Jane Doe",
       "specialty": "General Practitioner",
       "img": "https://t3.ftcdn.net/jpg/06/43/62/52/240_F_643625246_773zQTySyc1ddwlmaGCmd3HjiO5AmJVp.jpg",
